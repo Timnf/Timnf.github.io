@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+title: 倪工的技术博客
+subtitle: '路漫漫其修远兮，吾将上下而求索'
+description: '一个终生学习者，热爱技术，借助AI努力成为一个全栈工程师，密码安全领域从业者，对物联网、密码安全、音视频、智能工业等行业有兴趣。'
+keywords: 'c c++ java python c# go 密码安全 量子通信'
+author: Tim
+language: zh
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -103,4 +103,6 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/Timnf/Timnf.github.io.git
+  branch: main

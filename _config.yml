@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 倪工的技术博客
-subtitle: '路漫漫其修远兮，吾将上下而求索'
+title: Tim倪的技术博客
+subtitle: '学海无涯'
 description: '一个终生学习者，热爱技术，借助AI努力成为一个全栈工程师，密码安全领域从业者，对物联网、密码安全、音视频、智能工业等行业有兴趣。'
 keywords: 'c c++ java python c# go 密码安全 量子通信'
 author: Tim
@@ -106,3 +106,28 @@ deploy:
   type: git
   repo: https://github.com/Timnf/Timnf.github.io.git
   branch: main
+
+
+# hexo-tag-cloud
+tag_cloud:
+    textFont: Trebuchet MS, Helvetica
+    textColor: '#333'
+    textHeight: 25
+    outlineColor: '#E2E1D1'
+    maxSpeed: 0.1
+
+#添加站内搜索按钮
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
+local_search:
+  enable: true
+
+theme_config:
+  scheme: Gemini
+
+  
+    

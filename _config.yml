@@ -5,20 +5,24 @@
 # Site
 title: Tim倪的技术博客
 subtitle: '学海无涯'
-description: '一个终生学习者，热爱技术，借助AI努力成为一个全栈工程师，密码安全领域从业者，对物联网、密码安全、音视频、智能工业等行业有兴趣。'
-keywords: 'c c++ java python c# go 密码安全 量子通信'
+description: '一个终生学习者，热爱技术，借助AI努力成为一个全栈工程师，密码安全领域从业者，对物联网、密码安全、音视频、智能工业等行业有兴趣'
+keywords: 'c c++ java python c# go 密码安全 量子通信 cmake QT android windows linux ffmpage webrtc srs openssl gmssl curl jni/jna SQL-plugin'
 author: Tim
 language: zh
 timezone: 'Asia/Shanghai'
 
+# 设置字符编码为 UTF-8
+charset: UTF-8
+
+
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
-permalink: :year/:month/:day/:title/
-permalink_defaults:
-pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+# url: http://example.com
+# permalink: :year/:month/:day/:title/
+# permalink_defaults:
+# pretty_urls:
+#   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+#   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
@@ -31,29 +35,29 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
-default_layout: post
-titlecase: false # Transform title into titlecase
-external_link:
-  enable: true # Open external links in new tab
-  field: site # Apply to the whole site
-  exclude: ''
-filename_case: 0
-render_drafts: false
-post_asset_folder: false
-relative_link: false
-future: true
-syntax_highlighter: highlight.js
-highlight:
-  line_number: true
-  auto_detect: false
-  tab_replace: ''
-  wrap: true
-  hljs: false
-prismjs:
-  preprocess: true
-  line_number: true
-  tab_replace: ''
+# new_post_name: :title.md # File name of new posts
+# default_layout: post
+# titlecase: false # Transform title into titlecase
+# external_link:
+#   enable: true # Open external links in new tab
+#   field: site # Apply to the whole site
+#   exclude: ''
+# filename_case: 0
+# render_drafts: false
+# post_asset_folder: false
+# relative_link: false
+# future: true
+# syntax_highlighter: highlight.js
+# highlight:
+#   line_number: true
+#   auto_detect: false
+#   tab_replace: ''
+#   wrap: true
+#   hljs: false
+# prismjs:
+#   preprocess: true
+#   line_number: true
+#   tab_replace: ''
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -65,9 +69,18 @@ index_generator:
   order_by: -date
 
 # Category & Tag
-default_category: uncategorized
-category_map:
+# default_category: uncategorized
+category_map: 
+  home: 首页
+  about: 关于
+  tag: 标签
+  categories: 分类
+  archive: 归档
 tag_map:
+  about: 关于
+  tag: 标签
+  categories: 分类
+  archive: 归档
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
@@ -89,15 +102,15 @@ pagination_dir: page
 
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
-include:
-exclude:
-ignore:
+# include: 
+# exclude: 
+# ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-# theme: landscape
-theme: next
+theme: landscape
+# theme: next
 # theme: butterfly
 
 # Deployment
@@ -109,25 +122,33 @@ deploy:
 
 
 # hexo-tag-cloud
-tag_cloud:
-    textFont: Trebuchet MS, Helvetica
-    textColor: '#333'
-    textHeight: 25
-    outlineColor: '#E2E1D1'
-    maxSpeed: 0.1
+# tag_cloud:
+#     textFont: Trebuchet MS, Helvetica
+#     textColor: '#333'
+#     textHeight: 25
+#     outlineColor: '#E2E1D1'
+#     maxSpeed: 0.1
 
 #添加站内搜索按钮
-search:
-  path: search.xml
-  field: post
-  format: html
-  limit: 10000
+# search:
+#   path: search.xml
+#   field: post
+#   format: html
+#   limit: 10000
 
-local_search:
-  enable: true
+# local_search:
+#   enable: true
 
-theme_config:
-  scheme: Gemini
-
+# theme_config:
+#   language: zh-CN
+#   scheme: Gemini
+#   menu:
+#     # home: /
+#     # archives: /archives
+#     about: /about
+#     categories: /categories
+#     tags: /tags
+#     #commonweal: /404.html
+  
   
     

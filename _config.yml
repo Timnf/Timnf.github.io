@@ -139,13 +139,13 @@ deploy:
 # local_search:
 #   enable: true
 
-# theme_config:
+theme_config:
   # language: zh-CN
 #   scheme: Gemini
-#   menu:
+  menu:
 #     # home: /
 #     # archives: /archives
-#     about: /about
+    个人简介: /about
 #     categories: /categories
 #     tags: /tags
 #     #commonweal: /404.html

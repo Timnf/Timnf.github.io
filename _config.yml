@@ -8,7 +8,7 @@ subtitle: '学海无涯'
 description: '一个终生学习者，热爱技术，借助AI努力成为一个全栈工程师，密码安全领域从业者，对物联网、密码安全、音视频、智能工业等行业有兴趣'
 keywords: 'c c++ java python c# go 密码安全 量子通信 cmake QT android windows linux ffmpage webrtc srs openssl gmssl curl jni/jna SQL-plugin'
 author: Tim
-language: zh
+language: zh-cn
 timezone: 'Asia/Shanghai'
 
 # 设置字符编码为 UTF-8
@@ -109,8 +109,8 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
-# theme: next
+# theme: landscape
+theme: next
 # theme: butterfly
 
 # Deployment

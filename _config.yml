@@ -71,16 +71,16 @@ index_generator:
 # Category & Tag
 # default_category: uncategorized
 category_map: 
-  home: 首页
-  about: 关于
-  tag: 标签
-  categories: 分类
-  archive: 归档
+  home: 
+  about: about
+  tag: tags
+  categories: categories
+  archive: archives
 tag_map:
-  about: 关于
-  tag: 标签
-  categories: 分类
-  archive: 归档
+  # about: 关于
+  # tag: 标签
+  # categories: 分类
+  # archive: 归档
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
@@ -109,8 +109,8 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-# theme: landscape
-theme: next
+theme: landscape
+# theme: next
 # theme: butterfly
 
 # Deployment
@@ -140,7 +140,7 @@ deploy:
 #   enable: true
 
 # theme_config:
-#   language: zh-CN
+  # language: zh-CN
 #   scheme: Gemini
 #   menu:
 #     # home: /

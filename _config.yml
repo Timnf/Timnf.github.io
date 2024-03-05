@@ -109,8 +109,8 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
-# theme: next
+# theme: landscape
+theme: next
 # theme: butterfly
 
 # Deployment
@@ -141,14 +141,22 @@ deploy:
 
 theme_config:
   # language: zh-CN
-#   scheme: Gemini
+  scheme: Gemini
   menu:
-#     # home: /
-#     # archives: /archives
+    首页: /
+    归档: /archives
     个人简介: /about
-#     categories: /categories
-#     tags: /tags
+    分类: /categories
+    标签: /tags
 #     #commonweal: /404.html
   
   
-    
+markdown:
+  render:
+    engine: marked
+
+mermaid:
+  enable: true
+
+plantuml:
+  enable: true

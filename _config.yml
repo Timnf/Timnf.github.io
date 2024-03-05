@@ -139,9 +139,13 @@ deploy:
 # local_search:
 #   enable: true
 
+
+
+
 theme_config:
   # language: zh-CN
   scheme: Gemini
+  # scheme: Mist
   menu:
     首页: /
     归档: /archives
@@ -149,6 +153,15 @@ theme_config:
     分类: /categories
     标签: /tags
 #     #commonweal: /404.html
+  avatar: 
+    url: /uploads/avatar.png
+    rounded: true
+    rotated: true
+  post_edit:
+    enable: false
+    # url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name/ # Link for view source
+    # url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/ # Link for fork & edit
+
   
   
 markdown:

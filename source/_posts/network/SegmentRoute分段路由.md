@@ -1,6 +1,6 @@
 ---
 title : 分段路由的技术研究
-tags: 网络路由
+tags: 路由
 categories: 网络
 ---
 

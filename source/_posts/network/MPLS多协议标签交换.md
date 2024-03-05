@@ -1,6 +1,6 @@
 ---
 title: MPLS(Multi-Protocol Label Switching)多协议标签交换
-tags: 网络路由
+tags: 路由
 categories: 网络
 ---
 

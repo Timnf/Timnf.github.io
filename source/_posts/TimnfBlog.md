@@ -5,7 +5,7 @@ categories: 个人
 ---
 # Welcome to [Timnf](https://Timnf.github.io/)! 
 
-## 博客构建参考
+# 博客构建参考
 
 [参考博客](https://happyseashell.gitee.io/overview/)
 

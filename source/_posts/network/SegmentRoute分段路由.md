@@ -21,5 +21,5 @@ categories: 网络
   |单跳隧道| 多跳隧道|
   |IGP邻接关联指定链路|等价多跳感知最短路径链路到达前缀|
 
-![](../../image/Segment%20route%20overview.png)
+![](../../image/segmentRoute/Segment%20route%20overview.png)
 

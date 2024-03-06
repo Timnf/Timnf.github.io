@@ -3,7 +3,7 @@ title: Timnf 的个人博客
 tags: 个人
 categories: 个人
 ---
-# Welcome to [Timnf](https://Timnf.github.io/)! 
+# Welcome to [Timnf](https://Timnf.github.io/) 
 
 # 博客构建参考
 
@@ -39,6 +39,27 @@ Parallel 4   :         des6, after des4, 1d
 {% endmermaid %}
 
 
+<!-- 数据帧格式图 -->
+{% mermaid %}
+graph LR
+    Start((Start)) --> Header
+    Header --> Payload
+    Payload --> End((End))
+{% endmermaid %}
+
+<!-- 数据帧格式图 -->
+{% mermaid %}
+graph TD
+    Start((Start)) --> Header
+    Header --> Payload
+    Payload --> End((End))
+    Header --> Control
+    Control -->|CRC| End
+{% endmermaid %}
+
+
+
+
 
 {% markmap 300px %}
 # hexo-markmap
@@ -63,8 +84,6 @@ Parallel 4   :         des6, after des4, 1d
 - 公式收回后不能再次渲染
 
 {% endmarkmap %}
-
-
 
 
 

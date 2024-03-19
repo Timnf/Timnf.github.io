@@ -4,11 +4,10 @@ tags: 路由
 categories: 网络
 ---
 
-
-
 # 什么是分段路由
 
 分段路由（segment route）是一种**基于源的路由技术**，可以简化不同网域的流量工程和管理。它以网络中的中转路由器和节点中移除网络状态信息，并将**路径状态信息**放入入口节点的数据包标头。
+<!--more-->
 
 # 分段路由概述
 - **SR域**:一系列使用SR协议的节点，在SR域中，节点可以执行入口、中继或出口程序。
@@ -21,5 +20,5 @@ categories: 网络
   |单跳隧道| 多跳隧道|
   |IGP邻接关联指定链路|等价多跳感知最短路径链路到达前缀|
 
-![](../../image/segmentRoute/Segment%20route%20overview.png)
+![](../../image/network/segmentRoute/Segment%20route%20overview.png)
 

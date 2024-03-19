@@ -129,15 +129,7 @@ deploy:
 #     outlineColor: '#E2E1D1'
 #     maxSpeed: 0.1
 
-#添加站内搜索按钮
-# search:
-#   path: search.xml
-#   field: post
-#   format: html
-#   limit: 10000
 
-# local_search:
-#   enable: true
 
 
 
@@ -147,11 +139,11 @@ theme_config:
   scheme: Gemini
   # scheme: Mist
   menu:
-    首页: /
-    归档: /archives
-    个人简介: /about
-    分类: /categories
-    标签: /tags
+    首页: / || fa fa-home
+    归档: /archives || fa fa-archive
+    个人简介: /about || fa fa-user
+    分类: /categories || fa fa-th
+    标签: /tags || fa fa-tags
 #     #commonweal: /404.html
   avatar: 
     url: /uploads/avatar.png
@@ -161,7 +153,15 @@ theme_config:
     enable: false
     # url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name/ # Link for view source
     # url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/ # Link for fork & edit
+  #添加站内搜索按钮
+  search:
+    path: search.xml
+    field: post
+    format: html
+    limit: 10000
 
+  local_search:
+    enable: true
   
   
 markdown:

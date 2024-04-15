@@ -1,5 +1,6 @@
 ---
 title: Timnf 的数学
+date: 2024-02-27
 tags: 数学
 categories: 数学
 ---

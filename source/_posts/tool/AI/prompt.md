@@ -1,5 +1,6 @@
 ---
 title: AI prompt(提示词)
+date: 2024-03-20
 tags: AI
 categories: 工具
 ---

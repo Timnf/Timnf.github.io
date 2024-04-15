@@ -1,5 +1,6 @@
 ---
 title: MPLS(Multi-Protocol Label Switching)多协议标签交换
+date: 2024-03-06
 tags: 路由
 categories: 网络
 ---

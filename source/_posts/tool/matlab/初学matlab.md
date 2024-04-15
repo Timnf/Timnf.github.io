@@ -1,5 +1,6 @@
 ---
 title: matlab初学基础指南
+date: 2024-03-08
 tags: matlab
 categories: 工具
 ---

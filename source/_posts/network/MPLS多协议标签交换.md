@@ -19,6 +19,7 @@ categories: 网络
 |简洁的标签交换|庞大的路由表|
 |中间节点无需解析IP报文头|每个节点都需要解析|
 
+
 后来，随着ASIC(Application Specific Intergrated Circuit, 专用集成电路)技术的发展，ip路由使用硬件来查表了，mpls不再具备优势。
 
 但是，MPLS的本质是一种隧道技术，天然可以充当多个业务的公网隧道。且MPLS依靠固定的标签交换路径，是一种面向连接的转发技术，使得其在流量工程(Traffic Engineering, TE)、Qos等领域也有广泛应用。
@@ -38,6 +39,7 @@ MPLS封装结构，长度4字节：
 |0~19|20~22|23|24~31|
 |--------------------|---|-|--------|
 |Label|TC|Bos|TTL|
+
 
 - Label: 20bit，标签值域
 - TC(Traffic Class): 3bit，原Exp，用于扩展。现在通常用来做Qos and ECN
